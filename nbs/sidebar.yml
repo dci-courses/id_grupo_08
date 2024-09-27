@@ -3,11 +3,7 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
-      - Presentacion.qmd
-      - App.qmd
-      - nbdev.yml
-      - sidebar.yml
-      - styles.css
-      - section: Imagenes
+      section: "Detector de ruidos peligrosos"
+        href: Presentacion.qmd
         contents:
-          - Imagenes\Papelografo.jpg
+          - App.qmd
