@@ -3,7 +3,5 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
-      section: "Detector de ruidos peligrosos"
-        href: Presentacion.qmd
-        contents:
-          - App.qmd
+      - Presentacion.qmd
+      - Aplicacion.qmd
