@@ -7,5 +7,7 @@ format: html
 ![Papelografo](Imagenes/Papelografo.jpg){width=100% .center}
 
 <p>
-Descripcion
+Se busca crear un pequeño proyecto basado en el modelo de deteccion de sonido de TeachableMachine <br>
+con la finalidad de crear un detector de sonidos que podrian implicar un peligro o que podrian atentar <br>
+contra la seguridad de un individuo.
 </p>
