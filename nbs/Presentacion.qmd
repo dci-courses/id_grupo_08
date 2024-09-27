@@ -1,0 +1,11 @@
+---
+title: "Problematica"
+description: "Presentacion de la problematica escogida"
+format: html
+---
+
+![Papelografo](Imagenes/Papelografo.jpg){width=100% .center}
+
+<p>
+Descripcion
+</p>
