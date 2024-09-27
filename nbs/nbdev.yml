@@ -2,7 +2,7 @@ project:
   output-dir: _docs
 
 website:
-  title: "id_grupo_08"
+  title: "Grupo 8"
   site-url: "https://dci-courses.github.io/id_grupo_08"
   description: "Repositorio del grupo 8 (Jabin y Priscila)"
   repo-branch: main
