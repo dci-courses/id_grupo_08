@@ -1,5 +1,13 @@
 website:
   sidebar:
     contents:
+      - index.ipynb
+      - 00_core.ipynb
       - Presentacion.qmd
       - App.qmd
+      - nbdev.yml
+      - sidebar.yml
+      - styles.css
+      - section: Imagenes
+        contents:
+          - Imagenes\Papelografo.jpg

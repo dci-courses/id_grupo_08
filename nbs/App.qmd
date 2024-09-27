@@ -1,6 +1,6 @@
 ---
-title: "Clasificador de sonidos peligrosos"
-description: "Detector de ruidos alarmantes"
+title: "Detector basico de ruidos"
+description: "Aqui se puede probar el detector de ruidos que parecen peligrosos"
 format: html
 ---
 
