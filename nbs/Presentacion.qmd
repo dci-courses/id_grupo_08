@@ -4,7 +4,7 @@ description: "Presentacion de la problematica escogida"
 format: html
 ---
 
-![](Imagenes/Papelografo.jpg){width=100% .center}
+![Papelografo con la ideainicial planteada](Imagenes/Papelografo.jpg){width=100% .center}
 
 <p>
 Se busca crear un pequeño proyecto basado en el modelo de deteccion de sonido de TeachableMachine
