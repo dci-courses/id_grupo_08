@@ -20,16 +20,16 @@ format: html
     // Initialize a sound classifier method with SpeechCommands18w model. A callback needs to be passed.
     let classifier;
 
-    // Array containing the 18 words of SpeechCommands18w
-    let labels = ["Ruido de fondo", "cristal", "disparo"];
+    // Array containing the words of https://teachablemachine.withgoogle.com/models/A8Wke3T-W/
+    let labels = ["Background Noise", "Cristal", "Disparo"];
 
     // Variable for displaying the results on the canvas
     let predictedWord = "";
 
     p.preload = function() {
       console.log("preload");
-      // Load SpeechCommands18w sound classifier model
-      classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/3FDQ0h2-1/");
+      // Load sound classifier model
+      classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/A8Wke3T-W/");
     };
 
     p.setup = function() {
@@ -54,7 +54,7 @@ format: html
       }
     };
 
-    // Function to display the 18 words on the canvas
+    // Function to display the words on the canvas
     function displayWords() {
       console.log("displayWords");
       p.textAlign(p.CENTER, p.CENTER);
