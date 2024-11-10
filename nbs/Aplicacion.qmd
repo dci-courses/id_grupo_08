@@ -16,36 +16,23 @@ format: html
 <script>
 (function() {
   const sketch = (p) => {
-
-    // Initialize a sound classifier method with SpeechCommands18w model. A callback needs to be passed.
     let classifier;
-
-    // Array containing the words of https://teachablemachine.withgoogle.com/models/A8Wke3T-W/
     let labels = ["Background Noise", "Cristal", "Disparo"];
-
-    // Variable for displaying the results on the canvas
     let predictedWord = "";
 
     p.preload = function() {
-      console.log("preload");
-      // Load sound classifier model
       classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/A8Wke3T-W/");
     };
 
     p.setup = function() {
-      console.log("setup");
       p.createCanvas(650, 450);
-      // Classify the sound from microphone in real time
       classifier.classifyStart(gotResult); // Este es el método correcto, no classifier.classifyStart
     };
 
     p.draw = function() {
-      console.log("draw");
       p.background(250);
-      // Call function for displaying background words
       displayWords();
 
-      // Once the model outputs results start displaying the predicted word on the canvas
       if (predictedWord !== "") {
         p.fill(211, 107, 255);
         p.textAlign(p.CENTER, p.CENTER);
@@ -54,9 +41,7 @@ format: html
       }
     };
 
-    // Function to display the words on the canvas
     function displayWords() {
-      console.log("displayWords");
       p.textAlign(p.CENTER, p.CENTER);
       p.textSize(32);
       p.fill(96);
@@ -64,15 +49,9 @@ format: html
 
       let x = 125;
       let y = 150;
-      // Words appear in 3 columns of 6 rows
-      for (let i = 0; i < labels.length; i++) {
-        p.fill(158);
-      }
     }
 
-    // A function to run when we get any errors and the results
     function gotResult(results) {
-      console.log("gotResult");
       // The results are in an array ordered by confidence
       console.log(results);
       // Load the first label to the text variable displayed on the canvas
