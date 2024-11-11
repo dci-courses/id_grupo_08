@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "id_grupo_08",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "id_grupo_08"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "id_grupo_08",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall id_grupo_08 in Development mode\n# make sure id_grupo_08 package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to id_grupo_08\n$ nbdev_prepare",
+    "crumbs": [
+      "id_grupo_08"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "id_grupo_08",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/dci-courses/id_grupo_08.git\nor from conda\n$ conda install -c dci-courses id_grupo_08\nor from pypi\n$ pip install id_grupo_08\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "id_grupo_08"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "id_grupo_08",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "id_grupo_08"
+    ]
+  },
+  {
+    "objectID": "Presentacion.html",
+    "href": "Presentacion.html",
+    "title": "Presentación",
+    "section": "",
+    "text": "Papelografo con la ideainicial planteada\n\n\n\nSe busca crear un pequeño proyecto basado en el modelo de deteccion de sonido de TeachableMachine con la finalidad de crear un detector de sonidos que podrian implicar un peligro o que podrian atentar contra la seguridad de un individuo.",
+    "crumbs": [
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
