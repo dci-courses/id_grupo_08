@@ -38,6 +38,11 @@ format: html
         p.textAlign(p.CENTER, p.CENTER);
         p.textSize(64);
         p.text(predictedWord, p.width / 2, 90);
+
+        // Mostrar el emoji de alerta si no es "Background Noise"
+        if (predictedWord !== "Background Noise") {
+          displayAlertEmoji();
+        }
       }
     };
 
@@ -45,10 +50,16 @@ format: html
       p.textAlign(p.CENTER, p.CENTER);
       p.textSize(32);
       p.fill(96);
-      p.text("Escuchando...", p.width / 2, 40);
+      p.text("Escuchando...", p.width / 2, 40);   
 
       let x = 125;
       let y = 150;
+    }
+
+    function displayAlertEmoji() {
+      p.fill(255, 0, 0);
+      p.textSize(80);
+      p.text("⚠️", p.width / 2, 250); // Posición y tamaño del emoji de alerta
     }
 
     function gotResult(results) {
